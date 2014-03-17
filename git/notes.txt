@@ -1,6 +1,5 @@
-Notes from Git sessions:
-The git loop:
-Make changes
-git add [filenames or -A]
-git commit -m [message]
-git push origin master
+Local
+Main workflow: init, then add/commit
+
+Remote
+Main workflow...don't know yet
