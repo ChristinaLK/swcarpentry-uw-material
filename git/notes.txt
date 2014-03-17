@@ -1,3 +1,5 @@
 Notes from Git sessions:
 
+
+Brilliant insight on the subtleties of git.
 - 
