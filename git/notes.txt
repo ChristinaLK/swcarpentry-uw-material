@@ -1,7 +1,13 @@
 Notes from Git sessions:
 
+- some notes here
+
+blah blah
+
+=======
 Local
 Main workflow: init, then add/commit
 
 Remote
 Main workflow...don't know yet
+
