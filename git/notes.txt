@@ -1,3 +1,4 @@
+
 $git remote add (name) (address)
 $git remote rm (name)
 $git remote or $git remote -v
@@ -8,5 +9,3 @@ $git clone (address) (name)
 
 
 Notes from Git sessions:
-
-- 
