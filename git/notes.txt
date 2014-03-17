@@ -4,5 +4,3 @@ Make changes
 git add [filenames or -A]
 git commit -m [message]
 git push origin master
-
-- 
