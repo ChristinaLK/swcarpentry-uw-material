@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+Notes from Git sessions:
+
+Junk for the sake of nothing.
+=======
 Notes from Git sessions:
 
 Local
