@@ -3,3 +3,7 @@ Notes from Git sessions:
 Github is confusing!!
 - 
 =======
+Local
+Main workflow: init, then add/commit
+
+Remote
