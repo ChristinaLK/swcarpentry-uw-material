@@ -23,7 +23,6 @@ ls Software Carpentry (Python room)
  Files
  .bashrc: This is where you go to change what bash does when it starts up
 
-
  Shell commands:
  cat : short for concatenate. If there is one file will print the file to the terminal screen
  pwd : "print working directory", shows current directory path
@@ -127,4 +126,3 @@ ls Software Carpentry (Python room)
  GUI interfaces - http://git-scm.com/downloads/guis
  SWC site: http://software-carpentry.org/v5/novice/git/01-backup.html
  diff visualizers, like https://sourcegear.com/diffmerge/
-
