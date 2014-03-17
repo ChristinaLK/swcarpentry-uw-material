@@ -1,3 +1,6 @@
 Notes from Git sessions:
 trying out notes!  WOOT!
 - 
+=======
+Hopefully I will have just generated a conflict!
+and fixed it
