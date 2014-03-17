@@ -1,7 +1,20 @@
+
+
+$git remote add (name) (address)
+$git remote rm (name)
+$git remote or $git remote -v
+$git pull (remote) (branch)
+$git push (remote) (branch)
+$git clone (address) (name)
+($git merge)
+
+
+Notes from Git sessions:
+=======
 Notes from Git sessions:
 
 Local
 Main workflow: init, then add/commit
 
 Remote
-Main workflow...don't know yet
+Main workflo
