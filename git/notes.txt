@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Notes from Git sessions:
 
 - 
@@ -160,3 +161,9 @@ git site: http://git-scm.com/
 GUI interfaces - http://git-scm.com/downloads/guis
 SWC site: http://software-carpentry.org/v5/novice/git/01-backup.html
 diff visualizers, like https://sourcegear.com/diffmerge/
+=======
+Notes from Git sessions:
+
+Local
+Main workflow: init, then add/commit
+
