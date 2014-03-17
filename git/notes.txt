@@ -1,7 +1,169 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+Notes from Git sessions:
+
+- 
+ls Software Carpentry (Python room)
+
+Welcome to MoPad!
+This pad text is synchronized as you type, so that everyone viewing this page sees the same text.  This allows you to collaborate seamlessly on documents!
+Please be cognizant of whether you are using a public pad or private/team pad, and take appropriate precautions with data you post here!
+  
+The Mopad the Moproblems
+#mature
+Schedule for the Day
+http://ljwilliams.github.io/2014-03-17-uw/
+
+Wireless:
+* user: event0449
+* pass: pf68;ba87;hp98
+ 
+Grab the example data from the shell with:
+
+  $ git clone https://github.com/wking/2014-03-17-uw.git
+
+If you don't have Git installed yet, you can download a zip bundle from https://github.com/wking/2014-03-17-uw/archive/master.zip
+
+For the first section, we'll need a Bash shell open, so if you need help getting that going, flag us down :).
+
+Shell shortcuts:
+- tab completion of lines
+- ctrl-k
+- ctrl-a
+- ctrl-insert (on windows): paste
+- ctrl-r history search
+
+Path shortcuts
+~ = home directory
+. = current directory
+.. = parent directory (one level above current directory)
+
+Pattern Matching
+* : Known as "splat" this matches anything
+
+Files
+.bashrc: This is where you go to change what bash does when it starts up
+
+
+Shell commands:
+cat : short for concatenate. If there is one file will print the file to the terminal screen
+pwd : "print working directory", shows current directory path
+ls : shows files in directory. (Means list). 
+cd <directory-name> : changes to the directory name
+history: prints previous commands. The default is 500. You can change this in your .bashrc
+mkdir <directoryname>: makes directory with given name
+rm <filename>
+rmdir <directoryname>
+rm -rv <directoryname> :This removes recursively with verbose hence -rv
+cp <original filename> <new filename> :  Can do recursively
+mv <filename> <filename> : Move a directory: like moving your apartment. The old one doesn't stay. Cannot do recursively. 
+echo : return string
+grep : this is a search tool
+grep -v : finds lines *without* certain search parameters
+touch <filename> : updates the “last modified” timestamp. If there’s no file, it will create one.
+-hl : “human long”, give me more human-readable info on a file
+wc <filename> : "word count" (1st col: # lines; 2nd col: # space-delimited words; 3rd col: # chars)
+-i : case insensitive (e.g. "grep -i today" searches for all case forms of "today")
+
+Editing/viewing text files:
+<name of text editor > <filename>: will create/open a file in the texteditor
+less <filename>: prints part of your file to window
+cat <filename> : prints file contents to window
+
+Redirects
+> : overwrite contents 
+>> : append to contents
+| : pipe standard output
+
+Creating Variables
+export <variable>: Creates global variable
+setenv <variable>: Creates local variable
+
+More information on shell:
+http://software-carpentry.org/v5/novice/shell/index.html
+
+Here's some extra data for later:
+http://bitly.com/bundles/o_2blprrri42/1
+
+Assignment
+Write a function that takes as input the list of files
+Counts the number of lines in the file that stand for a carbon moleclue (indicated w/ C)
+Output: filename + Carbon lines AND/OR total number of carbon lines over all files
+
+
+Afternoon - git
+
+Setup:
+create a directory (NOT in the 2014-... from this morning)
+cd into it
+$c
+Copy the projects folder (in git-session/git) to your outer directory
+
+
+Terms:
+repository (repo)
+commit
+staging area / staged
+
+Commands:
+$ git config --global user.name “Christina Koch”
+$ git config --global user.email "koch.christinal@gmail.com"
+$ git config --global color.ui "auto"
+$ git config --global core.editor "notepad"
+$git status
+$git init 
+$git add (filename) or $git add -A
+$git commit -m “commit message”
+$git log or $git log --oneline or $git log --oneline --stat
+$git status
+$git diff (version) (version) (filename)
+$git checkout (version) (filename)
+
+$git remote add (name) (address)
+$git remote rm (name)
+$git remote or $git remote -v
+$git pull (remote) (branch)
+$git push (remote) (branch)
+$git clone (address) (name)
+($git merge)
+
+grep Question Analytics_Fall2013.csv | head
+
+remove Analytics_1900.csv + commit
+edit script above to take any filename + commit
+
+Make a github account!
+
+Edit README.md file
+Commit changes
+Push changes to remote repository
+
+Scenario: you want to copy your colleague's files to your computer to make changes.
+Goal: make directory and get the files from your colleague's remote repository into it.  
+
+Using shell + git commands - How many commands?  
+
+
+
+
+
+
+
+
+
+
+
+
+
+branching app: http://pcottle.github.io/learnGitBranching/?NODEMO
+atlassian: https://www.atlassian.com/git/tutorial/git-basics
+git site: http://git-scm.com/
+GUI interfaces - http://git-scm.com/downloads/guis
+SWC site: http://software-carpentry.org/v5/novice/git/01-backup.html
+diff visualizers, like https://sourcegear.com/diffmerge/
+=======
 Notes from Git sessions:
 
 Local
 Main workflow: init, then add/commit
 
-Remote
-Main workflow...don't know yet
