@@ -3,3 +3,4 @@ Notes from Git sessions:
 - some notes here
 
 blah blah
+
