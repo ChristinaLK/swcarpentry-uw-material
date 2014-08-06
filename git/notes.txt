@@ -6,6 +6,10 @@ testing things -
 =======
 Notes from Git sessions:
 
+<<<<<<< HEAD
+This was a great course!  Thank you. 
+- 
+=======
 Local
 Main workflow: init, then add/commit
 
